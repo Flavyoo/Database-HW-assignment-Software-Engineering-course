@@ -215,7 +215,6 @@ void Database::saveData()
     // write with space as delimiter, read  by splitting spaces
     ofstream students_database;
     // get rid of this as different systems have different paths.
-    //string base_directory = "/home/flavio/Desktop/cs410/hw2/StudentRecords/";
 
     students_database.open(file_name);
     if (!students_database.is_open())
